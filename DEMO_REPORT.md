@@ -1,8 +1,8 @@
 # Repo Detective Report
 
-**Health score:** 37/100  
-**Files scanned:** 2  
-**Detected stack:** Python
+- **Health score:** 37/100
+- **Files scanned:** 2
+- **Detected stack:** Python
 
 ## Findings
 

@@ -51,4 +51,3 @@ def test_markdown_report_contains_agent_sections(tmp_path: Path) -> None:
     assert "# Repo Detective Report" in rendered
     assert "## Findings" in rendered
     assert "## Recommended actions" in rendered
-

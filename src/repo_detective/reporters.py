@@ -10,9 +10,9 @@ def render_markdown(report: AgentReport) -> str:
     lines = [
         "# Repo Detective Report",
         "",
-        f"**Health score:** {report.score}/100  ",
-        f"**Files scanned:** {report.files_scanned}  ",
-        f"**Detected stack:** {stack}",
+        f"- **Health score:** {report.score}/100",
+        f"- **Files scanned:** {report.files_scanned}",
+        f"- **Detected stack:** {stack}",
         "",
         "## Findings",
         "",
@@ -32,4 +32,3 @@ def render_markdown(report: AgentReport) -> str:
 
 def render_json(report: AgentReport) -> str:
     return json.dumps(report.to_dict(), indent=2, ensure_ascii=False, default=str) + "\n"
-

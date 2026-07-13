@@ -74,4 +74,3 @@ class DetectiveAgent:
             findings=findings,
             actions=self.act(findings),
         )
-

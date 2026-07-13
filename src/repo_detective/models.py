@@ -47,4 +47,3 @@ class AgentReport:
             "findings": [asdict(finding) for finding in self.findings],
             "actions": self.actions,
         }
-

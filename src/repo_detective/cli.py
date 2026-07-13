@@ -31,4 +31,3 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(rendered, end="")
     return 0
-
